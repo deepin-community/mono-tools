@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+if [ -d /usr/lib/monodoc/search_index ]; then
+	rm -r /usr/lib/monodoc/search_index
+fi
+
+#DEBHELPER#
+
+exit 0
